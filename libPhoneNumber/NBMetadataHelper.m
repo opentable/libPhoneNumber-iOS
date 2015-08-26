@@ -10,8 +10,8 @@
 
 #import "NBPhoneMetaData.h"
 
-#import "NBMetadataCoreTest.h"
-#import "NBMetadataCore.h"
+//#import "NBMetadataCoreTest.h"
+//#import "NBMetadataCore.h"
 
 #import "NBMetadataCoreMapper.h"
 #import "NBMetadataCoreTestMapper.h"

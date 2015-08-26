@@ -5,7 +5,7 @@
 //
 
 #import "AppDelegate.h"
-#import "NBPhoneMetaDataGenerator.h"
+//#import "NBPhoneMetaDataGenerator.h"
 
 #import "NBPhoneNumberUtil.h"
 
