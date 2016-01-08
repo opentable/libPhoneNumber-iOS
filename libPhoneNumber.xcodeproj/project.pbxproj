@@ -35,6 +35,9 @@
 		5C50C1D81AC23FC60049E062 /* NBAsYouTypeFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8B84261934C35F00C350EB /* NBAsYouTypeFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C50C1D91AC23FC60049E062 /* NBAsYouTypeFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8B84271934C35F00C350EB /* NBAsYouTypeFormatter.m */; };
 		5C51E8081C2385F900228AB3 /* NBMetadataCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39001B8E7E1400BF286A /* NBMetadataCore.m */; };
+		5C6086571C3F7402009962CC /* NBPhoneMetaDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39061B8E7E2300BF286A /* NBPhoneMetaDataGenerator.m */; };
+		5C6086581C3F7403009962CC /* NBPhoneMetaDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39061B8E7E2300BF286A /* NBPhoneMetaDataGenerator.m */; };
+		5C6086591C3F7405009962CC /* NBPhoneMetaDataGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAB39051B8E7E2300BF286A /* NBPhoneMetaDataGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CAB39031B8E7E1400BF286A /* NBMetadataCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39001B8E7E1400BF286A /* NBMetadataCore.m */; };
 		5CAB39041B8E7E1400BF286A /* NBMetadataCoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39021B8E7E1400BF286A /* NBMetadataCoreTest.m */; };
 		5CAB39071B8E7E2300BF286A /* NBPhoneMetaDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39061B8E7E2300BF286A /* NBPhoneMetaDataGenerator.m */; };
@@ -354,6 +357,7 @@
 				5C50C1CB1AC23FC60049E062 /* NBPhoneNumber.h in Headers */,
 				5C50C1D41AC23FC60049E062 /* NBPhoneNumberUtil.h in Headers */,
 				5C042CE81B8D47FB002D7A41 /* NBMetadataCoreTestMapper.h in Headers */,
+				5C6086591C3F7405009962CC /* NBPhoneMetaDataGenerator.h in Headers */,
 				5C50C1AE1AC23FA80049E062 /* libPhoneNumber.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -512,6 +516,7 @@
 				5C50C1D01AC23FC60049E062 /* NBPhoneNumberDesc.m in Sources */,
 				5C50C1CC1AC23FC60049E062 /* NBPhoneNumber.m in Sources */,
 				5C50C1D51AC23FC60049E062 /* NBPhoneNumberUtil.m in Sources */,
+				5C6086571C3F7402009962CC /* NBPhoneMetaDataGenerator.m in Sources */,
 				5C50C1CE1AC23FC60049E062 /* NBNumberFormat.m in Sources */,
 				5C50C1D21AC23FC60049E062 /* NBPhoneMetaData.m in Sources */,
 				5C50C1D91AC23FC60049E062 /* NBAsYouTypeFormatter.m in Sources */,
@@ -550,6 +555,7 @@
 				FD8B844A1934C35F00C350EB /* NSArray+NBAdditions.m in Sources */,
 				FD8B84421934C35F00C350EB /* NBPhoneMetaData.m in Sources */,
 				FD8B84401934C35F00C350EB /* NBNumberFormat.m in Sources */,
+				5C6086581C3F7403009962CC /* NBPhoneMetaDataGenerator.m in Sources */,
 				FD8B84461934C35F00C350EB /* NBPhoneNumberDesc.m in Sources */,
 				FDBCFA0D1A87AD8C00297F21 /* NBMetadataCoreMapper.m in Sources */,
 				FD8B843E1934C35F00C350EB /* NBAsYouTypeFormatter.m in Sources */,
@@ -746,7 +752,7 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "libPhoneNumber/libPhoneNumber-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -780,7 +786,7 @@
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "libPhoneNumber/libPhoneNumber-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
