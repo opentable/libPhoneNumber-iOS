@@ -41,9 +41,9 @@
 		5CAB39031B8E7E1400BF286A /* NBMetadataCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39001B8E7E1400BF286A /* NBMetadataCore.m */; };
 		5CAB39041B8E7E1400BF286A /* NBMetadataCoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39021B8E7E1400BF286A /* NBMetadataCoreTest.m */; };
 		5CAB39071B8E7E2300BF286A /* NBPhoneMetaDataGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39061B8E7E2300BF286A /* NBPhoneMetaDataGenerator.m */; };
-		76B56E3A1D21A68500AD9102 /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8B84331934C35F00C350EB /* NSArray+NBAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76B56E3B1D21AA3A00AD9102 /* NBMetadataCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAB38FF1B8E7E1400BF286A /* NBMetadataCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76B56E3C1D21AA4200AD9102 /* NBMetadataCoreTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAB39011B8E7E1400BF286A /* NBMetadataCoreTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76B56E3A1D21A68500AD9102 /* NSArray+NBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD8B84331934C35F00C350EB /* NSArray+NBAdditions.h */; };
+		76B56E3B1D21AA3A00AD9102 /* NBMetadataCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAB38FF1B8E7E1400BF286A /* NBMetadataCore.h */; };
+		76B56E3C1D21AA4200AD9102 /* NBMetadataCoreTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CAB39011B8E7E1400BF286A /* NBMetadataCoreTest.h */; };
 		76B56E3D1D21AA9A00AD9102 /* PhoneNumberMetaData.json in Resources */ = {isa = PBXBuildFile; fileRef = 187A618A1A25DF04000D8BB6 /* PhoneNumberMetaData.json */; };
 		76B56E3E1D21AA9D00AD9102 /* PhoneNumberMetaDataForTesting.json in Resources */ = {isa = PBXBuildFile; fileRef = 187A618B1A25DF04000D8BB6 /* PhoneNumberMetaDataForTesting.json */; };
 		76B56E3F1D21AB6000AD9102 /* NBMetadataCoreTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAB39021B8E7E1400BF286A /* NBMetadataCoreTest.m */; };
